@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
+@Table(name = "biblioteca_moises")
 public class Biblioteca {
 
     @Id

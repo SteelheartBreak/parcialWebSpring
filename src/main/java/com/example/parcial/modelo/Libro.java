@@ -2,6 +2,7 @@ package com.example.parcial.modelo;
 
 import javax.persistence.*;
 @Entity
+@Table(name = "libros_moises")
 public class Libro {
 
     @Id
