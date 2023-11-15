@@ -1,6 +1,7 @@
 package com.example.parcial.modelo;
 
-import javax.persistence.*;
+/*import javax.persistence.*;*/
+import jakarta.persistence.*;
 @Entity
 @Table(name = "libros_moises")
 public class Libro {
